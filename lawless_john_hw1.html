@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>CS 474/574 Machine Learning 1. HW1</title>
+  <style type="text/css">
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" type="text/css" media="screen, projection, print"
+    href="https://www.w3.org/Talks/Tools/Slidy2/styles/slidy.css" />
+  
+  <script src="https://www.w3.org/Talks/Tools/Slidy2/scripts/slidy.js"
+    charset="utf-8" type="text/javascript"></script>
+</head>
+<body>
+<div class="slide titlepage">
+  <h1 class="title"><p>CS 474/574 Machine Learning<br />
+1. HW1</p></h1>
+  <p class="author">
+<p>John Lawless<br />
+Iowa State University<br />
+Ames, IA, USA<br />
+</p>
+  </p>
+</div>
+<div id="warmup" class="slide section level1">
+<h1>Warmup</h1>
+<ul class="incremental">
+<li><img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5Chat%7BF%7D" alt="\hat{F}" title="\hat{F}" /> = <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20ma" alt="ma" title="ma" /></li>
+<li><img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20E" alt="E" title="E" /> = <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20mc%5E2" alt="mc^2" title="mc^2" /></li>
+<li><img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5Cmathcal%7BO%7D%28n%5Clog%7B%7Dn%29" alt="\mathcal{O}(n\log{}n)" title="\mathcal{O}(n\log{}n)" /></li>
+</ul>
+</div>
+<div id="section" class="slide section level1">
+<h1></h1>
+<ul class="incremental">
+<li>Supervised, finding <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5Chat%7Bf%7D%28x%29%20%5Capprox%20f%28x%29" alt="\hat{f}(x) \approx f(x)" title="\hat{f}(x) \approx f(x)" /> with ground truth provided by human.</li>
+<li>Unsupervised, finding <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5Chat%7Bf%7D%28x%29" alt="\hat{f}(x)" title="\hat{f}(x)" /> without ground truth</li>
+<li>Reinforcement, let the machine find ground truth itself</li>
+</ul>
+</div>
+<div id="section-1" class="slide section level1">
+<h1></h1>
+<ul class="incremental">
+<li>Question:</li>
+<li>We now want to build an ML model that predicts the profitability of a retail kiosk in the mall. Because different types of businesses generate cash flows differently, e.g., an coffee kiosk probably makes less money than a one selling smartphones. If we use one-hot encoding to turn kiosk types into binary vectors, and we have 5 categories of kiosks, what is the minimal dimension of the vector?</li>
+<li>The mininmal dimension of the vector would be 5, as we have 5 categories of things.</li>
+</ul>
+</div>
+</body>
+</html>
